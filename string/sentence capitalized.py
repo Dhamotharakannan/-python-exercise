@@ -1,0 +1,13 @@
+s="without,hello,bag,world"
+print(len(s))
+n=s.split(",")
+print(len(n))
+print(n)
+print(n[::-1])
+n.remove(n[2])
+print(n)
+l=sorted(n)
+print(l)
+k=",".join(l)
+print(s)
+print(k)
